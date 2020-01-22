@@ -1,5 +1,14 @@
-SpinPaint
-=========
+---
+name: Xamarin.Forms - SpinPaint
+description: "SpinPaint is a Xamarin.Forms application that runs on iOS, Android, and Universal Windows Platform devices. #skiasharp"
+page_type: sample
+languages:
+- csharp
+products:
+- xamarin
+urlFragment: skiasharpforms-spinpaint
+---
+# SpinPaint
 
 SpinPaint is a Xamarin.Forms application that runs on iOS, Android, and Universal Windows Platform devices.
 
@@ -11,6 +20,5 @@ SpinPaint demonstrates the use of SkiaSharp in a Xamarin.Forms application. For 
 
 SpinPaint uses a .NET Standard Library for the shared code. For a version that uses a Shared Project, see [SpinPaintShared](https://developer.xamarin.com/samples/xamarin-forms/SkiaSharpForms/SpinPaintShared/).
 
-Author
-------
-Charles Petzold
+![SpinPaint application screenshot](Screenshots/Image0.png "SpinPaint application screenshot")
+

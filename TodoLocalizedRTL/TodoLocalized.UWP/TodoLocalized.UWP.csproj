@@ -3,7 +3,7 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
-    <ProjectGuid>{440361E1-F010-4635-967E-5DC1BFBFF7A6}</ProjectGuid>
+    <ProjectGuid>{58E63286-495C-4C0A-B896-126E0332A7AE}</ProjectGuid>
     <OutputType>AppContainerExe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>TodoLocalized.UWP</RootNamespace>
@@ -91,7 +91,6 @@
     <Compile Include="App.xaml.cs">
       <DependentUpon>App.xaml</DependentUpon>
     </Compile>
-    <Compile Include="Localize.cs" />
     <Compile Include="MainPage.xaml.cs">
       <DependentUpon>MainPage.xaml</DependentUpon>
     </Compile>
@@ -129,7 +128,7 @@
   </ItemGroup>
   <ItemGroup>
     <PackageReference Include="Microsoft.NETCore.UniversalWindowsPlatform">
-      <Version>6.0.8</Version>
+      <Version>6.0.12</Version>
     </PackageReference>
     <PackageReference Include="sqlite-net">
       <Version>1.0.8</Version>
@@ -138,12 +137,12 @@
       <Version>1.2.1</Version>
     </PackageReference>
     <PackageReference Include="Xamarin.Forms">
-      <Version>3.2.0.839982</Version>
+      <Version>4.4.0.991265</Version>
     </PackageReference>
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\TodoLocalizedRTL\TodoLocalizedRTL.csproj">
-      <Project>{18bb0815-69cc-4f43-8447-3a5acfc472ff}</Project>
+      <Project>{B3529E3A-043C-4E77-8796-ABBE3F98D8B4}</Project>
       <Name>TodoLocalizedRTL</Name>
     </ProjectReference>
   </ItemGroup>
